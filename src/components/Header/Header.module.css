@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+.headerMenu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: #fff;
+}
+
+.headerMenu>li:hover {
+    color: var(--orange);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .header>img{
+        width: 80%;
+    }
+    .header>:nth-child(2){
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+    }
+    .headerMenu{
+        flex-direction: column;
+        background-color: var(--appColor);
+        padding: 2rem;
+    }
+}
