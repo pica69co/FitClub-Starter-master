@@ -1,4 +1,4 @@
-Dema: https://fitclubpica69co.pages.dev/
+Demo: https://fitclubpica69co.pages.dev/
 
 # Getting Started with Create React App
 
